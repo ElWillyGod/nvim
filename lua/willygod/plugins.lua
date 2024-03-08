@@ -126,7 +126,7 @@ return require("packer").startup(function(use)
 		"akinsho/toggleterm.nvim",
 		tag = "*",
 		config = function()
-			require("willygod.configs.toggleterm")
+			require("toggleterm").setup()
 		end,
 	})
 
