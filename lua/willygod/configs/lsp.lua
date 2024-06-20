@@ -67,3 +67,9 @@ nvim_lsp.pyright.setup({
 	on_attach = on_attach,
 	capabilities = capabilities,
 })
+
+-- SQL
+nvim_lsp.sqls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+})
