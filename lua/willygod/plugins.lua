@@ -138,6 +138,14 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	-- Github Copilot
+	use({ 
+		"github/copilot.vim", 
+		config = function() 
+			vim.cmd("Copilot setup") 
+		end 
+	})
+
 	-- Markdown Preview
 	use({
 		"iamcco/markdown-preview.nvim",
