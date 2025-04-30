@@ -37,6 +37,12 @@ nvim_lsp.clangd.setup({
   capabilities = capabilities,
 })
 
+-- C#
+nvim_lsp.csharp_ls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+})
+
 -- CSS
 nvim_lsp.cssls.setup({
 	on_attach = on_attach,

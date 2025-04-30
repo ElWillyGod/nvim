@@ -14,6 +14,7 @@ masonlsp.setup({
 		"ts_ls",
 		"pyright",
 		"tailwindcss",
+		"csharp_ls",
     "clangd"
 	},
 })
