@@ -84,3 +84,9 @@ nvim_lsp.sqls.setup({
 	on_attach = on_attach,
 	capabilities = capabilities,
 })
+
+-- Go 
+nvim_lsp.gopls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+})
